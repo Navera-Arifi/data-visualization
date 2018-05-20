@@ -12,11 +12,13 @@ Next, clone this repo:
 	cd data-visualization
 	
 # Build project
-Build via docker command:
 	docker build -t dashboard .
 
-# Run
+# Run Docker image
 	docker run -p 5000:80 dashboard
+	
+# Run Django application without Docker (only for development purpose)
+	python manage.py runserver 0.0.0.0:5000
 
 # Output:
 Check the your browser with the corresponding IP address with port :)
