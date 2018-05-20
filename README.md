@@ -19,6 +19,5 @@ Build via docker command:
 	docker run -p 5000:80 dashboard
 
 # Output:
-Check the browser with the corresponding IP address with port, here is the snapshot:
-![Scheme](display_bokeh_plot image_on_django.png)
+Check the your browser with the corresponding IP address with port :)
 	
